@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuSearch"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuLanguage"
+        android:icon="@drawable/ic_language"
+        android:title="@string/language"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menuLanguageKo"
+                android:title="@string/korean"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/menuLanguageEn"
+                android:title="@string/english"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/menuLanguageJa"
+                android:title="@string/japanese"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/menuLanguageZhCN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="@string/chineseSimple"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/menuLanguageZhTW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="@string/chineseTraditional"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+</menu>
