@@ -17,4 +17,4 @@ Creating a program to find restaurants in Seoul using Kotlin, SQLite and OpenAPI
 2022-11-19(Sat) ~ 2022-11-20(Sun)
 
 ## Run Application
-https://user-images.githubusercontent.com/115549424/208351268-6ec92147-d5ac-4732-8de1-01f94ed6b584.mp4
+https://user-images.githubusercontent.com/115549424/208362780-fdcf2b38-1483-452a-b813-57ec8e954219.mp4
